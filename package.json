@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "webpack --env mode=development",
+    "build:prod": "webpack --env mode=production",
+    "build"
+    : "webpack"
+
   },
   "repository": {
     "type": "git",
@@ -16,5 +21,10 @@
     "url": "https://github.com/DmitryBalandin/Project-wirt-redux-and-gruphQL/issues"
   },
   "homepage": "https://github.com/DmitryBalandin/Project-wirt-redux-and-gruphQL#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
 }
