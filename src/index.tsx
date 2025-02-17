@@ -1,6 +1,5 @@
 import { createRoot } from "react-dom/client";
-import  App  from './componenets/App';
-import  React from 'react';
+import  App  from '@/componenets/App';
 import ReactDOM from 'react-dom/client';
 
 
